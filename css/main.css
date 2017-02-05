@@ -1,0 +1,415 @@
+@font-face {
+    font-family: 'ralewayblack';
+    src: url('../fonts/raleway-black-webfont.woff2') format('woff2'),
+    url('../fonts/raleway-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../fonts/raleway-regular-webfont.woff2') format('woff2'),
+    url('../fonts/raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaysemibold_italic';
+    src: url('../fonts/raleway-semibolditalic-webfont.woff2') format('woff2'),
+    url('../fonts/raleway-semibolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoblack';
+    src: url('../fonts/roboto-black-webfont.woff2') format('woff2'),
+    url('../fonts/roboto-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+    url('../fonts/roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('../fonts/roboto-light-webfont.woff2') format('woff2'),
+    url('../fonts/roboto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+    url('../fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'fontawesome';
+    src: url('../fonts/fontawesome-webfont.woff2') format('woff2'),
+    url('../fonts/fontawesome-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    background-color: #eeeeee;
+    margin: 50px 100px;
+    text-align: center;
+}
+
+*, * :before, * :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+
+header {
+    height: 60px;
+    vertical-align: middle;
+}
+
+header div, nav {
+    display: inline-block;
+    /*height: 100%;*/
+}
+
+.content {
+    display: inline-block;
+    height: 631px;
+    width: 628px;
+    word-wrap: break-word;
+    text-align: right;
+    margin-top: 76px;
+    margin-left: 18px;
+    letter-spacing: 3.5px;
+}
+
+.img1 {
+    display: inline-block;
+    background-color: transparent;
+}
+
+.title {
+    font-family: "robotoblack", sans-serif;
+    font-size: 48px;
+    color: #303030;
+    line-height: 27px;
+    margin-right: 578px;
+    margin-left: 140px;
+}
+
+nav {
+    vertical-align: 10px;
+}
+
+nav div {
+    font-family: "robotoregular", sans-serif;
+    font-size: 18px;
+    color: #303030;
+    vertical-align: middle;
+}
+
+nav div:first-child {
+    margin-right: 50px;
+}
+
+nav div:last-child {
+    margin-left: 41px;
+}
+
+.lorem {
+    font-family: "robotolight", sans-serif;
+    line-height: 36px;
+    font-size: 24px;
+    letter-spacing: 0.65px;
+    margin-top: 22px;
+}
+
+#title {
+    font-family: "ralewayblack";
+    font-size: 150px;
+    text-transform: uppercase;
+    line-height: 150px;
+    color: #303030;
+}
+
+.img1 {
+    position: relative;
+    vertical-align: -24px;
+    margin-left: 95px;
+}
+
+.content #view {
+    font-family: "robotobold", sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    color: #e10011;
+    margin-top: 14px;
+    letter-spacing: 0.5px;
+}
+
+.content ul {
+    position: relative;
+    margin-top: -71px;
+    margin-left: 102px;
+}
+
+.slideicons {
+    margin-top: -74px;
+    margin-left: 103px;
+}
+
+.slideicons li {
+    display: inline;
+    list-style: none;
+    margin-right: 5px;
+}
+
+.slideicons li:first-child {
+    /*background-color: red;*/
+}
+
+/*********************************CHAPTER 2******************************************************************************/
+#block2 {
+    display: inline-block;
+    height: 1197px;
+    width: 1197px;
+    background-color: #fff;
+    margin-top: 80px;
+    margin-left: 140px;
+}
+
+#block2 div {
+    text-align: center;
+}
+
+#block2 div:first-child {
+    font-family: "ralewayblack", sans-serif;
+    font-size: 48px;
+    line-height: 76px;
+    margin-top: 96px;;
+    letter-spacing: 1.1px;
+}
+
+#underline {
+    margin-top: -41px;;
+}
+
+.text div:last-child {
+    font-family: "ralewayregular", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-top: -14px;
+}
+
+.images {
+    text-align: left;
+}
+
+.images ul {
+    padding: 0px;
+    margin-left: 4px;
+}
+
+.images li {
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    margin: 0 auto;
+}
+
+.item1 {
+    background: url("../images/speackerphones.jpg");
+    width: 692px;
+    height: 387px;
+}
+
+.item2 {
+    background: url("../images/headphones_red.jpg");
+    width: 328px;
+    height: 387px;
+}
+
+.item3 {
+    background: url("../images/braclet.png");
+    width: 328px;
+    height: 387px;
+    background-repeat: no-repeat;
+}
+
+.item4 {
+    background: url("../images/Casual-Shoes-For-Men-2.jpg");
+    width: 329px;
+    height: 387px;
+}
+
+.item5 {
+    background: url("../images/cheir.jpg");
+    width: 328px;
+    height: 387px;
+}
+
+.firstraw li {
+
+    margin: 56px 17px;
+}
+
+.secondraw li {
+
+    margin: -41px 17px;
+}
+
+
+
+.images a{
+    display: inline-block;
+    font-family: "robotoblack", sans-serif;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    background: #e10011;
+    opacity: 0;
+    position: inherit;
+    border-radius: 5px;
+    /*padding: 50px 0px;*/
+}
+.images p span{
+     text-decoration: underline;
+     text-decoration-style: double;
+
+ }
+.images a p{
+    margin-top: 250px;
+    margin-left: 35px;
+}
+
+.images a:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.footer p:first-child {
+    font-family: "ralewayblack";
+    font-size: 48px;
+    color: #303030;
+    margin-top: 85px;
+    margin-left: 138px;
+    letter-spacing: 1.1px;
+}
+
+.footer p:last-child {
+    font-family: "ralewayregular";
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: -35px;
+    margin-left: 145px;
+    letter-spacing: 0.4px;
+}
+
+input {
+    display: inline-block;
+    position: relative;
+    margin-top: 16px;
+    font-family: "ralewaysemibold_italic";
+    font-size: 18px;
+    color: #979797;
+    width: 550px;
+    height: 70px;
+    /*background-color: black;*/
+    border-color: transparent;
+    border-bottom-left-radius: 35px;
+    border-top-left-radius: 35px;
+    padding-left: 67px;
+    background-image: url("../icons/envelope.png");
+    background-repeat: no-repeat;
+    background-position-x: 32px;
+    background-position-y: 26px;
+    letter-spacing: 0.9px;
+}
+
+button {
+    display: inline-block;
+    position: absolute;
+    height: 72px;
+    width: 212px;
+    border-bottom-right-radius: 35px;
+    border-top-right-radius: 35px;
+    font-family: "robotoblack", sans-serif;
+    font-size: 18px;
+    background-color: #e10011;
+    color: white;
+    margin-top: 14px;
+    margin-left: -59px;
+}
+
+.icons {
+    margin-top: 115px;
+    margin-left: 114px;
+}
+
+.icons ul {
+    text-align: center;
+}
+
+.icons li {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    border-color: transparent;
+    background: white;
+    border-radius: 50%;
+    list-style: none;
+    vertical-align: middle;
+    line-height: 70px;
+    margin: 0 8px;
+}
+
+aside li img {
+    position: relative;
+    margin-top: 20px;
+}
+
+#theend {
+    margin-top: 60px;
+    margin-left: 130px;
+}
+
+#theend p {
+    font-family: "ralewayregular";
+    font-size: 18px;
+    color: #979797;
+    text-align: center;
+
+}
+
+#theend span {
+    color: #303030;
+}
+
+.icons li:hover {
+    background-color: silver;
+    opacity: 0.8;
+    transform: translate3d(0, -10%, 0) scale(1, 1);
+}
